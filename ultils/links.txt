@@ -1,0 +1,2 @@
+URI:https://api.openweathermap.org/data/2.5/onecall?lat=10.7683&lon=106.6758&exclude=hourly,minutely&appid=edb7824edd6304aaf3c3d3a00dcaaf53&lang=vi
+Coordinate:https://api.mapbox.com/geocoding/v5/mapbox.places/{địachỉ}.json?access_token=pk.eyJ1Ijoid3N0ZXJuYXJ5IiwiYSI6ImNrZTlzbXYwZjA2eHUzMW1qYWlkd3Z4M3EifQ.wq62ooX4r08WL3GT8B8g3Q&limit=1
