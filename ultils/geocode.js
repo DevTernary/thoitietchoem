@@ -5,9 +5,9 @@ const geocode = (address,callback)=>{
 
     request({url, json: true},(error, {body}) => {
         if(error){
-            callback('Unable to connect geolocate services !',undefined);
+            callback('Kết nối có vấn đề rồi em ơi ~~~~',undefined);
         }else if(body.features.length === 0){
-            callback('Location not found.Try another search !!!',undefined);
+            callback('Hình như em nhập nhầm rồi thì phải,đâu có địa điểm này đâu.Thử lại em nha !!!',undefined);
         }else{
             callback(undefined,{
                 longitude: body.features[0].center[0],
